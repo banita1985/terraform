@@ -1,6 +1,6 @@
 # EKS Cluster Role
 resource "aws_iam_role" "eks_cluster_role" {
-  name = "eks-cluster-role"
+  name = "eks-cluster-role2"
 
   assume_role_policy = jsonencode({
     Version = "2012-10-17",
