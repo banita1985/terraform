@@ -30,6 +30,6 @@ jobs:
         run: terraform apply -auto-approve
 
     env:
-      TFC_TOKEN: ${{ secrets.TFC_TOKEN }}
+      TFC_TOKEN: ${{ secrets.TERRAFORM_TFC }}
       TFC_ORG_NAME: ${{ secrets.TFC_ORG_NAME }}
       TFC_WORKSPACE_NAME: ${{ secrets.TFC_WORKSPACE_NAME }}
